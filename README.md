@@ -24,7 +24,6 @@ pip install -r requirements.txt
 ```
 
 ## Download Model 
-We only train the q-former projector in this recipe.
 Encoder | Adapter | LLM 
 |---|---|---
 [whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) | [q-former+mlp](https://huggingface.co/yxdu/llm-srt) | [Qwen2.5-3B](https://huggingface.co/Qwen/Qwen2.5-3B) 
