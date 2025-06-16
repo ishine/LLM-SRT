@@ -12,6 +12,8 @@ This project is a subproject of https://github.com/X-LANCE/SLAM-LLM.
 
 ## Installation
 ```
+sudo apt-get install python3-setuptools
+
 conda create -n llm-srt python=3.10
 conda activate llm-srt
 
@@ -28,7 +30,6 @@ Encoder | Adapter | LLM
 |---|---|---
 [whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) | [q-former+mlp](https://huggingface.co/yxdu/llm-srt) | [Qwen2.5-3B](https://huggingface.co/Qwen/Qwen2.5-3B) 
 ```
-mkdir models
 cd models/
 
 git lfs clone https://huggingface.co/yxdu/llm-srt
