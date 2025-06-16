@@ -250,23 +250,38 @@ def Inference(kwargs: DictConfig):
 
 	
 
-
-	if torch.distributed.get_rank() == 0:
-
+	if world_size > 1:
+		if torch.distributed.get_rank() == 0:
+			results_file = log_config.decode_log
+			with open(results_file, 'w') as f:
+				for gt, response, source, audio_path, prompt in zip(
+					merged_gts, merged_responses, merged_sources, merged_audio_paths, merged_prompts
+				):
+					result = {
+						'gt': gt,
+						'response': response,
+						'source': source,
+						"audio_path": audio_path,
+						"prompt": prompt,
+					}
+					f.write(json.dumps(result, ensure_ascii=False) + '\n')
+			print(f"Results saved to: {results_file}") 
+		torch.distributed.barrier()
+	else:
 		results_file = log_config.decode_log
 		with open(results_file, 'w') as f:
-			for gt, response, source,audio_path,prompt in zip(merged_gts, merged_responses, merged_sources,merged_audio_paths,merged_prompts):
+			for gt, response, source, audio_path, prompt in zip(
+				merged_gts, merged_responses, merged_sources, merged_audio_paths, merged_prompts
+			):
 				result = {
 					'gt': gt,
 					'response': response,
 					'source': source,
 					"audio_path": audio_path,
-					"prompt":prompt,
+					"prompt": prompt,
 				}
-				f.write(json.dumps(result,ensure_ascii=False) + '\n')
-
-	if world_size > 1:
-		torch.distributed.barrier()
+				f.write(json.dumps(result, ensure_ascii=False) + '\n')
+		print(f"Results saved to: {results_file}")  
 
 
 @dataclass
