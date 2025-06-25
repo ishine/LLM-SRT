@@ -1,13 +1,15 @@
 This project is a subproject of https://github.com/X-LANCE/SLAM-LLM.  
 
-# LLM-SRT
+# LLM-SRT 
+[Paper](https://arxiv.org/abs/2409.19510);
 
-## Model Stracture
-<img src="examples/st_covost2/image/framework.jpg" alt="Photo" style="width:75%;">
+✅ **Current Version (v1.0)**  
+- **Supported 15 Languages**: Chinese (zho), English (eng), Japanese (jpn), Korean (kor), German (deu), French (fra), Indonesian (ind), Italian (ita), Dutch (nld), Portuguese (por), Russian (rus), Spanish (spa), Thai (tha), Vietnamese (vie), Cantonese (yue)
+- **Full Pairwise** - Supports all 210 possible translation directions (15×14 language pairs)  
 
-
-## Multitask 
-<img src="examples/st_covost2/image/prompt.png" alt="Photo" style="width:100%;">
+🚀 **Coming Soon (v2.0 Beta)**  
+• **28 Languages**: Expanding to include Arabic, Hindi, Turkish and 10 more  
+• **756 Translation Directions**: New architecture enables 3.6x more language pairs  
 
 
 ## Installation
@@ -76,6 +78,16 @@ bash examples/st_covost2/scripts/all.sh
 bash examples/st_covost2/scripts/infer_all.sh
 bash examples/st_covost2/scripts/infer_hf.sh
 ```
+
+
+
+
+## Model Stracture
+<img src="examples/st_covost2/image/framework.jpg" alt="Photo" style="width:75%;">
+
+
+## Multitask 
+<img src="examples/st_covost2/image/prompt.png" alt="Photo" style="width:100%;">
 
 
 
