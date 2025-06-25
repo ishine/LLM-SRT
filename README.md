@@ -1,11 +1,11 @@
 This project is a subproject of https://github.com/X-LANCE/SLAM-LLM.  
 
-# LLM-SRT 
-[Paper](https://arxiv.org/abs/2409.19510);
+# LLM-SRT: [Paper](https://arxiv.org/abs/2409.19510);
+
 
 ✅ **Current Version (v1.0)**  
 - **Supported 15 Languages**: Chinese (zho), English (eng), Japanese (jpn), Korean (kor), German (deu), French (fra), Indonesian (ind), Italian (ita), Dutch (nld), Portuguese (por), Russian (rus), Spanish (spa), Thai (tha), Vietnamese (vie), Cantonese (yue)
-- **Full Pairwise** - Supports all 210 possible translation directions (15×14 language pairs)  
+- **210 Translation Directions** - Supports all 210 possible translation directions (15×14 language pairs)  
 
 🚀 **Coming Soon (v2.0 Beta)**  
 • **28 Languages**: Expanding to include Arabic, Hindi, Turkish and 10 more  
