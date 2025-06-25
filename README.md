@@ -9,7 +9,7 @@
 
 🚀 **Coming Soon (v2.0 Beta)**  
 • **28 Languages**: Expanding to include Arabic, Hindi, Turkish and 10 more  
-• **756 Translation Directions**: New architecture enables 3.6x more language pairs  
+• **756 Translation Directions**: New model enables 3.6x more language pairs  
 
 
 ## Installation
