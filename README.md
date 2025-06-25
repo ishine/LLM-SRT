@@ -1,8 +1,7 @@
 
 
-## 👉🏻 CosyVoice 👈🏻
-**LLM-SRT 1.0**: [Paper](https://arxiv.org/abs/2409.19510); 
-This project is a subproject of https://github.com/X-LANCE/SLAM-LLM.  
+## 👉🏻 LLM-SRT 👈🏻
+**LLM-SRT 1.0**: [Paper](https://arxiv.org/abs/2409.19510); This project is a subproject of https://github.com/X-LANCE/SLAM-LLM.  
 
 ✅ **Current Version (v1.0)**  
 - **Supported 15 Languages**: Chinese (zho), English (eng), Japanese (jpn), Korean (kor), German (deu), French (fra), Indonesian (ind), Italian (ita), Dutch (nld), Portuguese (por), Russian (rus), Spanish (spa), Thai (tha), Vietnamese (vie), Cantonese (yue)
