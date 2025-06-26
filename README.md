@@ -1,6 +1,6 @@
 
 
-## 👉🏻 LLM-SRT 👈🏻
+## LLM-SRT
 **LLM-SRT 1.0**: [Paper](https://arxiv.org/abs/2409.19510); This project is a subproject of [SLAM-LLM](https://github.com/X-LANCE/SLAM-LLM).  
 
 ✅ **Current Version (v1.0)**  
@@ -60,7 +60,7 @@ If you want to train your own model, you can download the following datasets.
 You need to prepare the data jsonl in this format.  
 | audio      | source           | prompt                     | gt            |
 |------------|------------------|----------------------------|---------------|
-| audio_path | `{dataset}_{src}_{tgt}` | `<\|{src}\|><\|{tgt}\|>`| `transcription{prompt}translation` |
+| audio_path | `{name}_{src}_{tgt}` | `<\|{src}\|><\|{tgt}\|>`| `transcription{prompt}translation` |
 ```
 {"audio": "eng/test/139.wav", "source": "fleurs_eng_zho", "prompt": "<|eng|><|zho|>", "gt": "They have feet with scales and claws, they lay eggs, and they walk on their two back legs like a T-Rex.<|eng|><|zho|>它们脚上有鳞片和爪子，会产卵，还像霸王龙一样用两条后腿走路。"}
 {"audio": "deu/test/0.wav", "source": "fleurs_deu_ara", "prompt": "<|deu|><|ara|>", "gt": "Für die besten Aussichten auf Hongkong sollten Sie die Insel verlassen und zum gegenüberliegenden Ufer von Kowloon fahren.<|deu|><|ara|>لكي تحظى بأفضل المشاهد لهونج كونج، غادر الجزيرة واتجه إلى واجهة كولون البحرية في الجهة المقابلة."}
