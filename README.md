@@ -1,6 +1,7 @@
 
 
-## LLM-SRT
+## [ACL 2025 Main] Making LLMs Better Many-to-Many Speech-to-Text Translators with Curriculum Learning
+
 **LLM-SRT 1.0**: [Paper](https://arxiv.org/abs/2409.19510); This project is a subproject of [SLAM-LLM](https://github.com/X-LANCE/SLAM-LLM).  
 
 ✅ **Current Version (v1.0)**  
