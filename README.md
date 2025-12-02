@@ -2,13 +2,13 @@
 
 ## [ACL 2025 Main] Making LLMs Better Many-to-Many Speech-to-Text Translators with Curriculum Learning
 
-**LLM-SRT 1.0**: [Paper](https://arxiv.org/abs/2409.19510); This project is a subproject of [SLAM-LLM](https://github.com/X-LANCE/SLAM-LLM).  
+**LLM-SRT paper**: [https://arxiv.org/abs/2409.19510](https://arxiv.org/abs/2409.19510); MCAT paper: [https://arxiv.org/abs/2512.01512v1](https://arxiv.org/abs/2512.01512v1); This project is a subproject of [SLAM-LLM](https://github.com/X-LANCE/SLAM-LLM).  
 
-✅ **Current Version (v1.0)**  
+✅ **Current Version LLM-SRT (v1.0)**  
 - **Supported 15 Languages**: Chinese (zho), English (eng), Japanese (jpn), Korean (kor), German (deu), French (fra), Indonesian (ind), Italian (ita), Dutch (nld), Portuguese (por), Russian (rus), Spanish (spa), Thai (tha), Vietnamese (vie), Cantonese (yue)
 - **210 Translation Directions** - Supports all 210 possible translation directions (15×14 language pairs)  
 
-🚀 **Updated Version (v2.0)**: [Code and Model](https://github.com/yxduir/m2m-70)
+🚀 **MCAT (v2.0)**: Code and Model: [https://github.com/yxduir/m2m-70](https://github.com/yxduir/m2m-70)
 - **Supported 70 Languages**: afr (Afrikaans), amh (Amharic), ara (Arabic), asm (Assamese), azj (Azerbaijani), bel (Belarusian), ben (Bengali), bos (Bosnian), bul (Bulgarian), cat (Catalan), ces (Czech), cmn (Chinese), cym (Welsh), dan (Danish), deu (German), ell (Greek), eng (English), est (Estonian), fas (Persian), fin (Finnish), fra (French), glg (Galician), guj (Gujarati), heb (Hebrew), hin (Hindi), hrv (Croatian), hun (Hungarian), hye (Armenian), ind (Indonesian), isl (Icelandic), ita (Italian), jav (Javanese), jpn (Japanese), kan (Kannada), kat (Georgian), kaz (Kazakh), khm (Khmer), kir (Kyrgyz), kor (Korean), lao (Lao), lav (Latvian), lit (Lithuanian), mal (Malayalam), mkd (Macedonian), msa (Malay), mya (Burmese), nld (Dutch), nob (Norwegian), npi (Nepali), pan (Punjabi), pol (Polish), por (Portuguese), ron (Romanian), rus (Russian), slk (Slovak), slv (Slovenian), spa (Spanish), srp (Serbian), swe (Swedish), swh (Swahili), tam (Tamil), tel (Telugu), tgl (Tagalog), tha (Thai), tur (Turkish), ukr (Ukrainian), urd (Urdu), uzb (Uzbek), vie (Vietnamese), yue (Cantonese)
 - **4830 Translation Directions** - Supports all 4830 possible translation directions (70×69 language pairs)
 
