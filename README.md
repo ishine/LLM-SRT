@@ -2,7 +2,11 @@
 
 ## [ACL 2025 Main] Making LLMs Better Many-to-Many Speech-to-Text Translators with Curriculum Learning
 
-**LLM-SRT paper**: [https://arxiv.org/abs/2409.19510](https://arxiv.org/abs/2409.19510); MCAT paper: [https://arxiv.org/abs/2512.01512v1](https://arxiv.org/abs/2512.01512v1); This project is a subproject of [SLAM-LLM](https://github.com/X-LANCE/SLAM-LLM).  
+**LLM-SRT paper**: [https://arxiv.org/abs/2409.19510](https://arxiv.org/abs/2409.19510); 
+
+**MCAT paper**: [https://arxiv.org/abs/2512.01512v1](https://arxiv.org/abs/2512.01512v1); 
+
+This project is a subproject of [**SLAM-LLM**](https://github.com/X-LANCE/SLAM-LLM).  
 
 ✅ **Current Version LLM-SRT (v1.0)**  
 - **Supported 15 Languages**: Chinese (zho), English (eng), Japanese (jpn), Korean (kor), German (deu), French (fra), Indonesian (ind), Italian (ita), Dutch (nld), Portuguese (por), Russian (rus), Spanish (spa), Thai (tha), Vietnamese (vie), Cantonese (yue)
