@@ -8,9 +8,9 @@
 - **Supported 15 Languages**: Chinese (zho), English (eng), Japanese (jpn), Korean (kor), German (deu), French (fra), Indonesian (ind), Italian (ita), Dutch (nld), Portuguese (por), Russian (rus), Spanish (spa), Thai (tha), Vietnamese (vie), Cantonese (yue)
 - **210 Translation Directions** - Supports all 210 possible translation directions (15×14 language pairs)  
 
-🚀 **Coming Soon (v2.0 Beta)**  
-• **28 Languages**: Expanding to include Arabic, Hindi, Turkish and 10 more  
-• **756 Translation Directions**: New model enables 3.6x more language pairs  
+🚀 **Updated Version (v2.0)**: [Code and Model](https://github.com/yxduir/m2m-70)
+- **Supported 70 Languages**: afr (Afrikaans), amh (Amharic), ara (Arabic), asm (Assamese), azj (Azerbaijani), bel (Belarusian), ben (Bengali), bos (Bosnian), bul (Bulgarian), cat (Catalan), ces (Czech), cmn (Chinese), cym (Welsh), dan (Danish), deu (German), ell (Greek), eng (English), est (Estonian), fas (Persian), fin (Finnish), fra (French), glg (Galician), guj (Gujarati), heb (Hebrew), hin (Hindi), hrv (Croatian), hun (Hungarian), hye (Armenian), ind (Indonesian), isl (Icelandic), ita (Italian), jav (Javanese), jpn (Japanese), kan (Kannada), kat (Georgian), kaz (Kazakh), khm (Khmer), kir (Kyrgyz), kor (Korean), lao (Lao), lav (Latvian), lit (Lithuanian), mal (Malayalam), mkd (Macedonian), msa (Malay), mya (Burmese), nld (Dutch), nob (Norwegian), npi (Nepali), pan (Punjabi), pol (Polish), por (Portuguese), ron (Romanian), rus (Russian), slk (Slovak), slv (Slovenian), spa (Spanish), srp (Serbian), swe (Swedish), swh (Swahili), tam (Tamil), tel (Telugu), tgl (Tagalog), tha (Thai), tur (Turkish), ukr (Ukrainian), urd (Urdu), uzb (Uzbek), vie (Vietnamese), yue (Cantonese)
+- **4830 Translation Directions** - Supports all 4830 possible translation directions (70×69 language pairs)
 
 
 ## Installation
@@ -81,17 +81,6 @@ bash examples/st_covost2/scripts/infer_hf.sh
 ```
 
 
-
-
-## Model Stracture
-<img src="examples/st_covost2/image/framework.jpg" alt="Photo" style="width:75%;">
-
-
-## Multitask 
-<img src="examples/st_covost2/image/prompt.png" alt="Photo" style="width:100%;">
-
-
-
 ##  Citation
 You can refer to the paper for more results. 
 ```
@@ -100,5 +89,14 @@ You can refer to the paper for more results.
   author    = {Du, Yexing and Pan, Youcheng and Ma, Ziyang and Yang, Bo and Yang, Yifang and Deng, Keqi and Chen, Xie and Xiang, Yang and Liu, Ming and Qin, Bing},
   booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)},
   year      = {2025},
+}
+@misc{du2025mcatscalingmanytomanyspeechtotext,
+      title={MCAT: Scaling Many-to-Many Speech-to-Text Translation with MLLMs to 70 Languages}, 
+      author={Yexing Du and Kaiyuan Liu and Youcheng Pan and Bo Yang and Keqi Deng and Xie Chen and Yang Xiang and Ming Liu and Bin Qin and YaoWei Wang},
+      year={2025},
+      eprint={2512.01512},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2512.01512}, 
 }
 ```
