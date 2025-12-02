@@ -86,7 +86,6 @@ bash examples/st_covost2/scripts/infer_hf.sh
 
 
 ##  Citation
-You can refer to the paper for more results. 
 ```
 @article{du2025speech2text,  
   title     = {Making LLMs Better Many-to-Many Speech-to-Text Translators with Curriculum Learning},
