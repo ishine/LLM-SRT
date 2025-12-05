@@ -21,7 +21,7 @@ This project is a subproject of [**SLAM-LLM**](https://github.com/X-LANCE/SLAM-L
 ```
 sudo apt-get install python3-setuptools
 
-conda create -n llm-srt python=3.10
+conda create -n llm-srt python=3.10 -y
 conda activate llm-srt
 
 git clone https://github.com/yxduir/LLM-SRT
