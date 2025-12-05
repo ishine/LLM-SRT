@@ -43,6 +43,7 @@ git lfs clone https://huggingface.co/yxdu/llm-srt
 git lfs clone https://huggingface.co/openai/whisper-large-v3
 # for 3B model (support 15 languages)
 git lfs clone https://huggingface.co/Qwen/Qwen2.5-3B
+cd ..
 ```
 
 ## Infer Demo

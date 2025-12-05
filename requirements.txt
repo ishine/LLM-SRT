@@ -18,7 +18,7 @@ wandb
 soundfile
 evaluate
 transformers
-datasets
+datasets==3.6.0
 sacrebleu
 jiwer
 librosa
@@ -32,3 +32,4 @@ debugpy
 importlib_metadata==4.13.0
 setuptools>=60.0.0
 evaluate
+torchcodec
