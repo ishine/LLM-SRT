@@ -39,10 +39,12 @@ Encoder | Adapter | LLM
 ```
 cd models/
 
-git lfs clone https://huggingface.co/yxdu/llm-srt
-git lfs clone https://huggingface.co/openai/whisper-large-v3
+# Total 29G
+!hf download yxdu/llm-srt --local-dir llm-srt
+!hf download openai/whisper-large-v3 --local-dir whisper-large-v3
 # for 3B model (support 15 languages)
-git lfs clone https://huggingface.co/Qwen/Qwen2.5-3B
+!hf download Qwen/Qwen2.5-3B --local-dir Qwen2.5-3B
+
 cd ..
 ```
 
