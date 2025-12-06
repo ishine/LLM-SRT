@@ -27,9 +27,9 @@ conda activate llm-srt
 git clone https://github.com/yxduir/LLM-SRT
 cd LLM-SRT
 
+pip install -r requirements.txt
 pip install -e .
 sudo apt install ffmpeg
-pip install -r requirements.txt
 ```
 
 ## Download Model 
