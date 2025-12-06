@@ -40,9 +40,9 @@ Encoder | Adapter | LLM
 cd models/
 
 # Total 29G, for 3B model (support 15 languages)
-!hf download yxdu/llm-srt --local-dir llm-srt
-!hf download openai/whisper-large-v3 --local-dir whisper-large-v3
-!hf download Qwen/Qwen2.5-3B --local-dir Qwen2.5-3B
+hf download yxdu/llm-srt --local-dir llm-srt
+hf download openai/whisper-large-v3 --local-dir whisper-large-v3
+hf download Qwen/Qwen2.5-3B --local-dir Qwen2.5-3B
 
 cd ..
 ```
